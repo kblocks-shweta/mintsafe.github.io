@@ -36268,14 +36268,18 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
+   .u-header {
+    min-height: 80px;
+  }
+
   .u-header .u-image-1 {
     margin-left: calc(((100% - 540px) / 2));
   }
 
   .u-header .u-menu-1 {
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: calc(((100% - 540px) / 2));
+    margin-top: -56px;
+    margin-right: calc(((100% - 540px) / 2));
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 575px) {
@@ -36284,7 +36288,9 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-left: calc(((100% - 340px) / 2));
+    margin-top: -56px;
+    margin-right: calc(((100% - 340px) / 2));
+    margin-bottom: -17px;
   }
 }
  .u-footer {

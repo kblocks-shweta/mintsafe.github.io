@@ -974,7 +974,12 @@
 
 @media (max-width: 767px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 100px;
+    min-height: 46px;
+  }
+
+  .u-section-5 .u-layout-wrap-1 {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .u-section-5 .u-container-layout-1 {
